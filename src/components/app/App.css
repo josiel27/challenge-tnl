@@ -1,0 +1,5 @@
+.App {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+}
