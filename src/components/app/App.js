@@ -1,15 +1,21 @@
 import React, { useState } from "react";
 import "./App.css";
-import GitProjects from "../gitProjects/GitProjects";
+import GitRepositories from "../gitRepositories/GitRepositories";
+import SearchForm from "../searchForm/SearchForm";
+
 
 const App = () => {
-  // function handleSearchRepositories(event) {
-  //   console.log(event.target.value);
-  // }
+  const [nameRepositorie, setNameRepositorie] = useState('');
+
+  const handleSearchRepositories = (event, value) => {
+    event.preventDefault(); // Prevent submit from reloading the page
+    setNameRepositorie(event.target.inputSearchText.value); //Recebe o retorno do input de texto do form e seta no state
+  };
+
   return (
     <div className="App">
-      {/* handle={() => handleSearchRepositories(event)} */}
-      <GitProjects  />
+      <SearchForm handleSearchRepositories={handleSearchRepositories} />
+      <GitRepositories nameRepositorie={nameRepositorie} />
     </div>
   );
 };
