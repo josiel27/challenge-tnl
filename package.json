@@ -1,7 +1,7 @@
 {
   "name": "challenge-tnl",
   "version": "0.1.0",
-  "homepage": "https://josiel27.github.io/challenge-enext/",
+  "homepage": "https://josiel27.github.io/challenge-tnl/",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
