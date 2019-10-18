@@ -1,4 +1,4 @@
-# Desafio Frontend The Nine Level
+# Desafio Frontend - The Nine Level
 
 
 ## Objetivo.
@@ -11,7 +11,7 @@ O usuário poderá digitar o nome de um usuário e visualizar o nome do projeto,
 
 ## Processo de desenvolvimento
 
-Primeiro, estruturei os components nas suas respectivas pastas. Em seguida, desenvolvi a tabela e o formulário de pesquisa em componentes separados. Criei um loading para a tabela. O css contou bastante com a ajuda do Bootstrap e foi de suma para a estilização do formulário de pesquisa e tabela com os projetos.
+- Primeiro, estruturei os components nas suas respectivas pastas. Em seguida, desenvolvi a tabela e o formulário de pesquisa em componentes separados. Criei um loading para a tabela. O css contou bastante com a ajuda do Bootstrap e foi de suma para a estilização do formulário de pesquisa e tabela com os projetos.
 
 
 ## Desafios encontrados
