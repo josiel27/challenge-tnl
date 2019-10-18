@@ -12,7 +12,7 @@ const SearchForm = props => {
         <Form.Label>Search for a github user Account:</Form.Label>
         <Form.Row>
           <Col sm={3}>
-            <Form.Control name="inputSearchText" type="text" placeholder="User Id" />
+            <Form.Control name="inputSearchText" type="text" placeholder="User Id" required />
           </Col>
           <Col>
             <Button type="submit">SEARCH</Button>

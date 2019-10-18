@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import GitRepositories from "../gitRepositories/GitRepositories";
 import SearchForm from "../searchForm/SearchForm";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const App = () => {
