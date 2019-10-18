@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/challenge-enext/static/css/main.5126a353.chunk.css",
-    "main.js": "/challenge-enext/static/js/main.576747ed.chunk.js",
-    "main.js.map": "/challenge-enext/static/js/main.576747ed.chunk.js.map",
-    "runtime-main.js": "/challenge-enext/static/js/runtime-main.5c6b2e1c.js",
-    "runtime-main.js.map": "/challenge-enext/static/js/runtime-main.5c6b2e1c.js.map",
-    "static/css/2.0624914a.chunk.css": "/challenge-enext/static/css/2.0624914a.chunk.css",
-    "static/js/2.7677faf5.chunk.js": "/challenge-enext/static/js/2.7677faf5.chunk.js",
-    "static/js/2.7677faf5.chunk.js.map": "/challenge-enext/static/js/2.7677faf5.chunk.js.map",
-    "index.html": "/challenge-enext/index.html",
-    "precache-manifest.c38a733b4e56cbf46a204ffc44bc11d5.js": "/challenge-enext/precache-manifest.c38a733b4e56cbf46a204ffc44bc11d5.js",
-    "service-worker.js": "/challenge-enext/service-worker.js",
-    "static/css/2.0624914a.chunk.css.map": "/challenge-enext/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.5126a353.chunk.css.map": "/challenge-enext/static/css/main.5126a353.chunk.css.map"
+    "main.css": "/challenge-tnl/static/css/main.5126a353.chunk.css",
+    "main.js": "/challenge-tnl/static/js/main.34e2e701.chunk.js",
+    "main.js.map": "/challenge-tnl/static/js/main.34e2e701.chunk.js.map",
+    "runtime-main.js": "/challenge-tnl/static/js/runtime-main.18304423.js",
+    "runtime-main.js.map": "/challenge-tnl/static/js/runtime-main.18304423.js.map",
+    "static/css/2.0624914a.chunk.css": "/challenge-tnl/static/css/2.0624914a.chunk.css",
+    "static/js/2.7677faf5.chunk.js": "/challenge-tnl/static/js/2.7677faf5.chunk.js",
+    "static/js/2.7677faf5.chunk.js.map": "/challenge-tnl/static/js/2.7677faf5.chunk.js.map",
+    "index.html": "/challenge-tnl/index.html",
+    "precache-manifest.0208e8a11a1e9260746c30da7b6d2a9b.js": "/challenge-tnl/precache-manifest.0208e8a11a1e9260746c30da7b6d2a9b.js",
+    "service-worker.js": "/challenge-tnl/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/challenge-tnl/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.5126a353.chunk.css.map": "/challenge-tnl/static/css/main.5126a353.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.5c6b2e1c.js",
+    "static/js/runtime-main.18304423.js",
     "static/css/2.0624914a.chunk.css",
     "static/js/2.7677faf5.chunk.js",
     "static/css/main.5126a353.chunk.css",
-    "static/js/main.576747ed.chunk.js"
+    "static/js/main.34e2e701.chunk.js"
   ]
 }
