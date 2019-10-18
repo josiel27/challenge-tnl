@@ -3,3 +3,13 @@
   font-size: calc(0.8rem);
   min-height: 100vh;
 }
+
+
+/* Ajustes na responsividade para telas com menos de 800px de largura */
+@media  (max-width: 800px){
+  .App{
+      margin: 0.5rem;
+      font-size: 0.8rem;
+      padding: .25rem;
+  }
+}

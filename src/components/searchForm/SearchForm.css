@@ -8,6 +8,12 @@
   font-size: 0.75rem !important;
 }
 
+/*  Defina uma altura para o input texto do formulario de pesquisa */
 .form-control {
   height: 2rem !important;
+}
+
+/* Defina uma largura maxima para o input texto do formulario de pesquisa */
+.inputSearchText{
+  max-width: 40vw;
 }

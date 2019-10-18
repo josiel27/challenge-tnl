@@ -1,18 +1,41 @@
+/* Ajusta o tamanho da fonte */
+.table {
+  font-size: 14px;
+}
+
 /* Nao permite que o titulo da coluna (th) quebre de linha */
 thead tr th {
-    white-space: nowrap;
+  white-space: nowrap;
+}
+
+/* Permite a quebra de palavras*/
+tbody tr td {
+  word-break: break-all;
 }
 
 /* Ajuste no style do alert */
-.alert-div{
-    position: fixed;
-    top: 10px;
-    margin: 0 auto;
-    right: 0px;
-    left: 0px;
-    width: 70vw;
-    max-width: 500px;
-    font-size: 1.2rem;
-    text-align: center;
-    z-index: 3;
+.alert-div {
+  position: fixed;
+  top: 10px;
+  margin: 0 auto;
+  right: 0px;
+  left: 0px;
+  width: 70vw;
+  max-width: 500px;
+  font-size: 1.2rem;
+  text-align: center;
+  z-index: 3;
+}
+
+/* Ajustes na responsividade para telas com menos de 800px de largura */
+@media (max-width: 800px) {
+  .table {
+    font-size: 2vw;
+  }
+  .table td,
+  .table th {
+    padding: 0.25rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
 }

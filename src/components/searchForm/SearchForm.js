@@ -11,7 +11,7 @@ const SearchForm = props => {
       <Form.Group>
         <Form.Label>Search for a github user Account:</Form.Label>
         <Form.Row>
-          <Col sm={3}>
+          <Col sm={3} className="inputSearchText">
             <Form.Control name="inputSearchText" type="text" placeholder="User Id" required />
           </Col>
           <Col>

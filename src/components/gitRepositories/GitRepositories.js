@@ -128,7 +128,7 @@ const GitRepositories = props => {
               {repositories.map(repo => (
                 <tr key={repo.id}>
                   {columnsTable.map(column => (
-                    <td key={column}>
+                    <td key={column} id={column}>
                       {/* private é um booleano, por isso a conversao em string */}
                       {column === 'private' ? String(repo[column]) : repo[column]} 
                     </td>
